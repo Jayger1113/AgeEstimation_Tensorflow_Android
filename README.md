@@ -1,5 +1,9 @@
 # AgeEstimation_Tensorflow_Android
 
+# Install tensorflow
+more detail:
+https://www.tensorflow.org/install/
+
 # Prerequire: 
 1. image set
 
@@ -8,5 +12,15 @@ UTKFace image set only for non-commercial research purposes only. The copyright 
 reference from original website: (https://susanqq.github.io/UTKFace/) 
 
 2. classify the UTKFace by age 
+classifier.py organize the image set into folder = AgeClassifier 
 
-3. 
+# retrain our model to learn from images
+1. our dataset below AgeClassifier
+
+2. retrain model by using retrain.py
+$cd tensorflow/examples/image_retraining
+
+$python3 retrain.py --how_many_training_steps=500 --model_dir=/Users/garyhsu/workspace/git/AgeEstimation_Tensorflow_Android/tf_files --output_graph=/Users/garyhsu/workspace/git/AgeEstimation_Tensorflow_Android/tf_files/retrained_face_age_graph.pb --output_labels=Users/garyhsu/workspace/git/AgeEstimation_Tensorflow_Android/tf_files/retrained_face_age_labels.txt --image_dir=/Users/garyhsu/workspace/git/AgeEstimation_Tensorflow_Android/AgeClassifier
+
+# Optimize the model
+$python3 optimize_for_inference.py --input=/Users/garyhsu/workspace/git/AgeEstimation_Tensorflow_Android/tf_files/retrained_face_age_graph.pb --output=/Users/garyhsu/workspace/git/AgeEstimation_Tensorflow_Android/tf_files/optimized_graph.pb --input_names="Mul" --output_names="final_result"
