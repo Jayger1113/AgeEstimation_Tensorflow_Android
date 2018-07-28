@@ -1,8 +1,10 @@
 # AgeEstimation_Tensorflow_Android
 
 # Install tensorflow
-more detail:
-https://www.tensorflow.org/install/
+
+1. $pip3 install tensorflow
+
+2. $git clone https://github.com/tensorflow/tensorflow.git
 
 # Prerequire: 
 1. image set
