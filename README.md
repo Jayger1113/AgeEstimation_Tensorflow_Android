@@ -17,7 +17,7 @@ reference from original website: (https://susanqq.github.io/UTKFace/)
 classifier.py organize the image set into folder = AgeClassifier 
 
 # retrain our model to learn from images
-1. our dataset below AgeClassifier
+1. our dataset below AgeClassifier (remove less than 20 image folder, this might cause issue)
 
 2. retrain model by using retrain.py
 
