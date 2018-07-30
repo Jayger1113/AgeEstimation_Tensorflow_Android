@@ -29,7 +29,8 @@ classifier.py organize the image set into folder = AgeClassifier
 
 $cd /Users/garyhsu/workspace/git/tensorflow/hub/examples/image_retraining/
 
-$sudo python3 retrain.py --how_many_training_steps=500 --model_dir=/Users/garyhsu/workspace/git/AgeEstimation_Tensorflow_Android/tf_files --output_graph=/Users/garyhsu/workspace/git/AgeEstimation_Tensorflow_Android/tf_files/retrained_graph.pb --output_labels=/Users/garyhsu/workspace/git/AgeEstimation_Tensorflow_Android/tf_files/retrained_labels.txt --image_dir=/Users/garyhsu/workspace/git/AgeEstimation_Tensorflow_Android/AgeClassifier
+$sudo python3 retrain.py --how_many_training_steps=500 --model_dir=/Users/garyhsu/workspace/git/AgeEstimation_Tensorflow_Android/tf_files 
+--bottleneck_dir=/Users/garyhsu/workspace/git/AgeEstimation_Tensorflow_Android/tf_files/bottlenecks --output_graph=/Users/garyhsu/workspace/git/AgeEstimation_Tensorflow_Android/tf_files/retrained_graph.pb --output_labels=/Users/garyhsu/workspace/git/AgeEstimation_Tensorflow_Android/tf_files/retrained_labels.txt --image_dir=/Users/garyhsu/workspace/git/AgeEstimation_Tensorflow_Android/AgeClassifier
 
 # Optimize the model
 
