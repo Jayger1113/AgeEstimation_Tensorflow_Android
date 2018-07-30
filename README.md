@@ -8,9 +8,7 @@
 
 3. $cd tensorflow
 
-4. $pip3 install tensorflow_hub
-
-5. $git clone https://github.com/tensorflow/hub.git
+4. git checkout r1.5
 
 # Prerequire: 
 1. image set
