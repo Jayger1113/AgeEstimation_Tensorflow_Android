@@ -23,10 +23,10 @@ classifier.py organize the image set into folder = AgeClassifier
 
 $cd Users/garyhsu/workspace/git/tensorflow/tensorflow/examples/image_retraining
 
-$python3 retrain.py --how_many_training_steps=500 --model_dir=/Users/garyhsu/workspace/git/AgeEstimation_Tensorflow_Android/tf_files --output_graph=/Users/garyhsu/workspace/git/AgeEstimation_Tensorflow_Android/tf_files/retrained_face_age_graph.pb --output_labels=/Users/garyhsu/workspace/git/AgeEstimation_Tensorflow_Android/tf_files/retrained_face_age_labels.txt --image_dir=/Users/garyhsu/workspace/git/AgeEstimation_Tensorflow_Android/AgeClassifier
+$python3 retrain.py --how_many_training_steps=500 --model_dir=/Users/garyhsu/workspace/git/AgeEstimation_Tensorflow_Android/tf_files --output_graph=/Users/garyhsu/workspace/git/AgeEstimation_Tensorflow_Android/tf_files/retrained_graph.pb --output_labels=/Users/garyhsu/workspace/git/AgeEstimation_Tensorflow_Android/tf_files/retrained_labels.txt --image_dir=/Users/garyhsu/workspace/git/AgeEstimation_Tensorflow_Android/AgeClassifier
 
 # Optimize the model
 
 $cd /Users/garyhsu/workspace/git/tensorflow/tensorflow/python/tools
 
-$python3 optimize_for_inference.py --input=/Users/garyhsu/workspace/git/AgeEstimation_Tensorflow_Android/tf_files/retrained_face_age_graph.pb --output=/Users/garyhsu/workspace/git/AgeEstimation_Tensorflow_Android/tf_files/optimized_graph.pb --input_names="Mul" --output_names="final_result"
+$python3 optimize_for_inference.py --input=/Users/garyhsu/workspace/git/AgeEstimation_Tensorflow_Android/tf_files/retrained_graph.pb --output=/Users/garyhsu/workspace/git/AgeEstimation_Tensorflow_Android/tf_files/optimized_graph.pb --input_names="Mul" --output_names="final_result"
