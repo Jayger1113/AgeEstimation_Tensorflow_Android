@@ -1,0 +1,3 @@
+/Users/garyhsu/workspace/git/AgeEstimation_Tensorflow_Android/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/garyhsu/workspace/git/AgeEstimation_Tensorflow_Android/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/garyhsu/workspace/git/AgeEstimation_Tensorflow_Android/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/tensorflow_demo.dir

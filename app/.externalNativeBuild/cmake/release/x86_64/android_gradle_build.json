@@ -1,0 +1,53 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/garyhsu/workspace/git/AgeEstimation_Tensorflow_Android/app/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/Users/garyhsu/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/garyhsu/workspace/git/AgeEstimation_Tensorflow_Android/app/.externalNativeBuild/cmake/release/x86_64 --target clean"
+	],
+	"cppFileExtensions" : [ "cc" ],
+	"libraries" : 
+	{
+		"tensorflow_demo-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "tensorflow_demo",
+			"buildCommand" : "/Users/garyhsu/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/garyhsu/workspace/git/AgeEstimation_Tensorflow_Android/app/.externalNativeBuild/cmake/release/x86_64 --target tensorflow_demo",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/garyhsu/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/garyhsu/Library/Android/sdk/ndk-bundle/sysroot  -Dtensorflow_demo_EXPORTS -isystem /Users/garyhsu/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/garyhsu/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/garyhsu/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/garyhsu/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/garyhsu/workspace/git/AgeEstimation_Tensorflow_Android/app/src/main/cpp/imageutils_jni.cc",
+					"workingDirectory" : "/Users/garyhsu/workspace/git/AgeEstimation_Tensorflow_Android/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/garyhsu/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/garyhsu/Library/Android/sdk/ndk-bundle/sysroot  -Dtensorflow_demo_EXPORTS -isystem /Users/garyhsu/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/garyhsu/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/garyhsu/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/garyhsu/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/garyhsu/workspace/git/AgeEstimation_Tensorflow_Android/app/src/main/cpp/rgb2yuv.cc",
+					"workingDirectory" : "/Users/garyhsu/workspace/git/AgeEstimation_Tensorflow_Android/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/garyhsu/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/garyhsu/Library/Android/sdk/ndk-bundle/sysroot  -Dtensorflow_demo_EXPORTS -isystem /Users/garyhsu/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/garyhsu/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/garyhsu/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/garyhsu/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/garyhsu/workspace/git/AgeEstimation_Tensorflow_Android/app/src/main/cpp/yuv2rgb.cc",
+					"workingDirectory" : "/Users/garyhsu/workspace/git/AgeEstimation_Tensorflow_Android/app/.externalNativeBuild/cmake/release/x86_64"
+				}
+			],
+			"output" : "/Users/garyhsu/workspace/git/AgeEstimation_Tensorflow_Android/app/build/intermediates/cmake/release/obj/x86_64/libtensorflow_demo.so",
+			"toolchain" : "15846186106325670933"
+		}
+	},
+	"toolchains" : 
+	{
+		"15846186106325670933" : 
+		{
+			"cCompilerExecutable" : "/Users/garyhsu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/garyhsu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
